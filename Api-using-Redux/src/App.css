@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.card {
+  width: 400px;
+  min-height: 150px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+}
+.app {
+  display: flex;
+  flex-wrap: wrap;
+}
